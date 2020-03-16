@@ -1,0 +1,49 @@
+
+<?PHP>
+
+$jmena = "Alena, Petra,Jarmila;Hana Dominika-Tomaz%Leona";
+var_dump ($jmena);
+
+$jmena = str_place ("%", ",", $jmena);
+var_dump($jmena);
+
+$jmena = str_place (" ", ",", $jmena);
+var_dump($jmena);
+
+$jmena = str_place (",,", ",",$jmena);
+var_dump($jmena);
+
+$jmena = str_place ("-", ",",$jmena);
+var_dump($jmena);
+
+$jmena = str_place (";", ",", $jmena);
+var_dump($jmena);
+
+$jmena = explode(" ", $jmena);
+var_dump($jmena);
+
+$jmena = implode(" ", $jmena);
+var_dump($jmena);
+
+$jmena = ucfirst(" ", $jmena);
+var_dump($jmena);
+
+$jmena = strtolower(" ", $jmena);
+var_dump($jmena);
+
+$jmena = rand(" ", $jmena);
+var_dump($jmena);
+
+$jmena = sort(" ", $jmena);
+var_dump($jmena);
+
+
+
+
+
+
+
+
+
+
+?>
