@@ -1,4 +1,4 @@
- table, th, tr{
+table, th, tr{
     border: 1px solid black;
     border-collapse: collapse;
     padding: 15px;
@@ -39,5 +39,3 @@ body div p {
     color:red;
     text-align: center;
      }
-
-     
